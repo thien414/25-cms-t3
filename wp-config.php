@@ -20,13 +20,13 @@
 
 // ** Thiết lập MySQL - Bạn có thể lấy các thông tin này từ host/server ** //
 /** Tên database MySQL */
-define( 'DB_NAME', 'thanhthien' );
+define( 'DB_NAME', 'cms' );
 
 /** Username của database */
-define( 'DB_USER', 'thanhthien' );
+define( 'DB_USER', 'root' );
 
 /** Mật khẩu của database */
-define( 'DB_PASSWORD', 'thien414' );
+define( 'DB_PASSWORD', '' );
 
 /** Hostname của database */
 define( 'DB_HOST', 'localhost' );
@@ -48,14 +48,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '%&*2ia5CnUA;ORUb3eH_0z[oo30ge0+By6)99>q@y>l{9?.s_MwTKr!gamZ>i2M4' );
-define( 'SECURE_AUTH_KEY',  '|EDq{1B?QEsJWG^yR#/d3HA]uBceM Xk +n]T/BHr&JYN1yKT17fX[ _*&Qf.K:S' );
-define( 'LOGGED_IN_KEY',    '7_-8OCw&B%,:Y9SM,-O2?Mv?/o97KaHqQy`/tuBG_[cTh}$qtjb/KV&B@+Sh71Ax' );
-define( 'NONCE_KEY',        ':]B`1BkHZf-NJ,(6&ka>6!n~5gWLtP[) w+)|mp[*0uHom,jSbgz=%hj61]u66}v' );
-define( 'AUTH_SALT',        'Jq#3H*rMW=kx#:@qP`{B>D}^0IB:M@ckiQ#*l4E+6Y2Qh:K}9y~<8-jQFCm;[~cg' );
-define( 'SECURE_AUTH_SALT', '3ava|_8n*i)NyZI^VCt1Buw& [`h/gS>C(9 pI.-j]esPqaGG>`U eCOGv!aF3Eh' );
-define( 'LOGGED_IN_SALT',   'I+p{gtpkJ6F]qAPKQ%^Vhc#/)9~WeP^jke@A-hHKAJI^E=BW:jWE6&R4aEbVTp#3' );
-define( 'NONCE_SALT',       'E+St0^QVE57{ 8k=zdOX6TM`)x24}YL-Sr[,44C`ibc>^ni55V{L)*=IHV+hWPHo' );
+define( 'AUTH_KEY',         'oPc?d@u[AS!{PfQ$j >Yr~E*8zAtyIwS!VL +n[+N=xBHbv:/R$0[C@q0=5QuK9-' );
+define( 'SECURE_AUTH_KEY',  'm/4_R? ^ {l6t.c)<=bWtu/Z#}2:8~/xL$I?C3%<3{*us9*]sdc@3HVDyd?IrDS,' );
+define( 'LOGGED_IN_KEY',    'T<%D+9i=fI|Bxple5@Nj9F}:Z[#2k4soQzl2&>X1nWJS7)UmQ4W)2P[}PH3)x5jN' );
+define( 'NONCE_KEY',        'eb$Wc ?`j%rPiA4G1}F~raMKI,wzbfv|&7Z,$_d.([PP^co/sKxVsBh.uxp+P7U?' );
+define( 'AUTH_SALT',        'A_r[jDSaI 6>Z*3vL70BMj HsBpymjQF7-I[l4YW8sK,n5Tn,&Gba_|>+uW%;?*s' );
+define( 'SECURE_AUTH_SALT', 'S(h3S3HOD6J~leP+nv=%mNMl=.x[#e/X/ql.N;w;aw6oZ7{/oHSLhBBCji*oaW2p' );
+define( 'LOGGED_IN_SALT',   '${nX{=8)MY9#?>F^)).mlO4!.vW$P_*FqdE1x[F_fA%Jl p%$Qp5g,,m?=#Py3}:' );
+define( 'NONCE_SALT',       'RwVvx]UDBWJ;`TjA5kefguj0)-Sji8/Ri1vv^1l-O;g4k;I]`9/Q2VTdtmxX5%k.' );
 
 /**#@-*/
 
