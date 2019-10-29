@@ -1,0 +1,27 @@
+2019-10-28T14:10:44+00:00 CRITICAL Uncaught Error: Call to undefined function the_product() in C:\wamp64\www\thanhthien\wp-content\themes\customtheme\009-contact.php:24
+Stack trace:
+#0 C:\wamp64\www\thanhthien\wp-content\themes\customtheme\index.php(35): include()
+#1 C:\wamp64\www\thanhthien\wp-includes\template-loader.php(78): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\thanhthien\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\t...')
+#3 C:\wamp64\www\thanhthien\index.php(17): require('C:\\wamp64\\www\\t...')
+#4 {main}
+  thrown in C:\wamp64\www\thanhthien\wp-content\themes\customtheme\009-contact.php on line 24
+
+2019-10-28T14:10:45+00:00 CRITICAL Uncaught Error: Call to undefined function the_product() in C:\wamp64\www\thanhthien\wp-content\themes\customtheme\009-contact.php:24
+Stack trace:
+#0 C:\wamp64\www\thanhthien\wp-content\themes\customtheme\index.php(35): include()
+#1 C:\wamp64\www\thanhthien\wp-includes\template-loader.php(78): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\thanhthien\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\t...')
+#3 C:\wamp64\www\thanhthien\index.php(17): require('C:\\wamp64\\www\\t...')
+#4 {main}
+  thrown in C:\wamp64\www\thanhthien\wp-content\themes\customtheme\009-contact.php on line 24
+
+2019-10-28T14:12:12+00:00 CRITICAL Uncaught Error: Call to undefined function the_product() in C:\wamp64\www\thanhthien\wp-content\themes\customtheme\009-contact.php:24
+Stack trace:
+#0 C:\wamp64\www\thanhthien\wp-content\themes\customtheme\index.php(35): include()
+#1 C:\wamp64\www\thanhthien\wp-includes\template-loader.php(78): include('C:\\wamp64\\www\\t...')
+#2 C:\wamp64\www\thanhthien\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\t...')
+#3 C:\wamp64\www\thanhthien\index.php(17): require('C:\\wamp64\\www\\t...')
+#4 {main}
+  thrown in C:\wamp64\www\thanhthien\wp-content\themes\customtheme\009-contact.php on line 24
+

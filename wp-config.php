@@ -1,4 +1,4 @@
-<?php
+ <?php
 /**
  * Cấu hình cơ bản cho WordPress
  *
@@ -78,7 +78,7 @@ $table_prefix  = 'wp_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define('WP_DEBUG', false);
-
+@ ini_set ( 'upload_max_size' , '256M' ) ; 
 /* Đó là tất cả thiết lập, ngưng sửa từ phần này trở xuống. Chúc bạn viết blog vui vẻ. */
 
 /** Đường dẫn tuyệt đối đến thư mục cài đặt WordPress. */
