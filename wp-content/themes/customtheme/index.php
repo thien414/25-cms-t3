@@ -19,7 +19,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
 <html>
 <head>
-    <title>Trang Chu</title>
+    <title>Trang chủ</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet"  />
@@ -32,7 +32,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
 <body>   
     <div class="container">
-                <?php  include'009-contact.php'; ?>
+                <?php  include'010-contact.php'; ?>
         
     </div>
 

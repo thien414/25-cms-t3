@@ -1,9 +1,9 @@
 <?php
+$cat = '';
 $args = array(
-    'posts_per_page' => 10,
-    'post_status' => 'publish',
     'post_type' => 'product',
-    'orderby' => 'meta_value_num',
+    'posts_per_page' => 10,
+    'product_cat' => $cat
 );
 ?>
 <?php $getposts = new WP_query($args); ?>
@@ -15,15 +15,16 @@ $wp_query->in_the_loop = true;
 
 <html>
     <head>
-        <title>module 009</title>
+        <title>module 015</title>
         <meta charset="UTF-8">
 
     </head>
 
     <body>   
-        <div class="type-009-contact">
+        <div class="type-015-contact">
             <div class="row">
 
+                <h2>RELATED PRODUCTS</h2>
                 <?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
                     <ul class="products columns-4">
                         <li>
@@ -43,7 +44,6 @@ $wp_query->in_the_loop = true;
                 wp_reset_postdata();
                 ?>
             </div>
-            <div class="button"><a href="#">View All</a></div>
         </div>
 
     </body>

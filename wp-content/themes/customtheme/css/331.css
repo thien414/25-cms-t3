@@ -30,7 +30,7 @@
     text-decoration: none;
 }
 
-.type-009-contact li{
+.type-009-contact li , .type-015-contact li{
     width: 25%;
     list-style: none;
     height: 280px;
@@ -40,6 +40,55 @@
     padding: 0 15px;
 }
 
-.type-009-contact img{
+.type-009-contact img, .type-015-contact img, .type-014-contact img{
     height: 225px;
 }
+
+.type-009-contact a, .type-015-contact a, .type-014-contact a{
+    color: #000;
+}
+
+.type-009-contact a:hover, .type-015-contact a:hover, .type-014-contact a:hover{
+    text-decoration: none;
+}
+
+.type-009-contact a:hover>h4, .type-015-contact a:hover>h4, .type-014-contact a:hover>h4{
+    color: #d9ab59;
+}
+
+.type-009-contact .button{
+    border: #ccc solid 2px;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.type-009-contact .button:hover{
+    background: #ccc;
+}
+
+.type-010-contact img{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.type-014-contact li{
+    width: 33.3333%;
+    list-style: none;
+    height: 280px;
+    float: left;
+    position: relative;
+    margin: 0 0 30px;
+    padding: 0 15px;
+}
+
+.type-015-contact h2{
+    font-size: 26px;
+    color: #000000;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
